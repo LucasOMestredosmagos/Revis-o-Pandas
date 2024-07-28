@@ -1,0 +1,14 @@
+#Linhas 18, 19 e 20 - Explicação de cada uma!
+#df["Preço"].idxmin() = Retorna o índice da linha com preço mínimo
+
+#df.loc[df["Preço"].idxmin()] = Usa o índice para selecionar a linha inteira com o preço mínimo.
+
+#df = é um Pandas DataFrame, que é uma estrutura de dados rotulada bidimensional com colunas de tipos potencialmente diferentes.
+
+#.idxmin() = é um método do Pandas que retorna o índice (index) do valor mínimo em uma série (Series) ou coluna de um DataFrame.
+
+#.shape é um atributo do Pandas que retorna uma tupla com as dimensões de um DataFrame ou série.
+
+#Se você quiser acessar apenas o número de linhas ou colunas, pode usar os índices da tupla: Apenas deem print(df.shape[0] ou [1], [2], [3]... etc)
+
+#Eae vai encarar estudar sem para? KK
